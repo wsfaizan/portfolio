@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  color: #333;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('depositphotos_16428473-stock-photo-fog-and-pastel-gradient.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Header */
+header {
+  background: url('pngtree-glass-morphism-with-smooth-color-gradient-image_778678.jpg') no-repeat center center/cover;
+  color: #070707;
+  padding: 100px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header .btn {
+  background: #822044;
+  color: rgb(10, 9, 9);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+header .btn:hover {
+  background: #822044;
+}
+
+/* About Section */
+#about .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#skills li {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  margin: 0;
+  color: #822044;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Experience and Education */
+.experience-item, .education-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.experience-item h3, .education-item h3 {
+  color: #822044;
+}
+
+/* Achievements */
+ul {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  text-align: left;
+
+}
+
+/* Contact Section */
+#contact {
+  text-align: center;
+}
+
+#contact .btn {
+  background: #822044;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#contact .btn:hover {
+  background: #822044;
+}
+
+/* Footer */
+footer {
+  background: #822044;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
